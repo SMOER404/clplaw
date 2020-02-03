@@ -1,0 +1,7 @@
+.team-page {
+    display: flex;
+    padding: 135px 100px;
+    .team-card__big {
+        width: calc(50% - 10px);
+    }
+}

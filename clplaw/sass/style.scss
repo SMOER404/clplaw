@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Playfair;
+    src: url(../fonts/PlayfairDisplaySC-Regular.ttf);
+}
+ // font-family: "Playfair", sans-serif;
+body {
+    margin: 0;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+}
+.d-flex {
+    display: flex;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.plyfr {
+    font-family: "Playfair", sans-serif !important;
+}
+.p-md {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 47px;
+    letter-spacing: 0.05em;
+    color: #333333;
+    max-width: 840px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@import 'page/about';
+@import 'page/team';
